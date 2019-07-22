@@ -12,4 +12,6 @@ Markdown is a thing
 
 # WHERE MY HEADING?
 
-  can i has codeblock
+```
+can i has codeblock
+```
