@@ -1,4 +1,5 @@
 <script>
+
 function pickRandom(argument) {
   if (typeof argument === 'number') {
     return Math.floor(Math.random() * Math.floor(argument)) + 1;
@@ -7,6 +8,7 @@ function pickRandom(argument) {
     return argument[Math.floor(Math.random() * argument.length)];
   }
 }
+
 var subject = pickRandom(['Del Close',
 'iO West',
 'Second City',
@@ -22,6 +24,7 @@ var subject = pickRandom(['Del Close',
 'UCB Sunset',
 'The Inner Sanctum'
 ]);
+
 var activity = pickRandom(['editing',
 'is yes anding',
 'is boinking',
@@ -73,6 +76,7 @@ var activity = pickRandom(['editing',
 "is mortal enemies with",
 'is depressed about',
 ]);
+
 var object = pickRandom([
 'your edit',
 'your dad',
@@ -106,5 +110,11 @@ var object = pickRandom([
 "CATSBY",
 "clowning",
 ]);
+
+document.write('HELLO PEOPLE.');
 document.write(subject + ' ' + activity + ' ' + object + '.');
+
+
+
+
 </script>
