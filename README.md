@@ -4,7 +4,7 @@ Markdown is a thing
 
 *this does stuff*
 
-_this also does stuff_
+**this also does stuff**
 
 - this is a bullet
 
