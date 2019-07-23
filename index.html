@@ -20,7 +20,8 @@ function pickRandom(argument) {
   }
 }
 
-var subject = pickRandom(['Del Close',
+var subject = pickRandom([
+  'Del Close',
 'iO West',
 'Second City',
 'UCB',
@@ -36,7 +37,8 @@ var subject = pickRandom(['Del Close',
 'The Inner Sanctum'
 ]);
 
-var activity = pickRandom(['editing',
+var activity = pickRandom([
+  'editing',
 'is yes anding',
 'is boinking',
 'is pity laughing at',
@@ -69,7 +71,8 @@ var activity = pickRandom(['editing',
 'is too real for',
 'is cancelling',
 'is totally bombing at',
-'voted for',
+'is voting for',
+'loves',
 'is pitching a show to',
 'is making it in',
 'is shooting a pilot about',
@@ -84,11 +87,15 @@ var activity = pickRandom(['editing',
 'is getting a call back for',
 'is getting a stand-up special on',
 'is selling a show to',
-"is mortal enemies with",
+'is mortal enemies with',
 'is depressed about',
-]);
+'is clowning on',
+'is clowning with',              
+'is going viral with'
+                          ]);
 
-var object = pickRandom([subject,
+var object = pickRandom([
+  subject,
 'your edit',
 'your dad',
 'a DILF',
@@ -118,15 +125,13 @@ var object = pickRandom([subject,
 'The Cagematch',
 'Hollywood',
 'Reign Agency',
-"The #AssOlympics",
-"CATSBY",
-"clowning",
+'clowning',
 ]);
 
 document.write(subject + ' ' + activity + ' ' + object + ' at PackCon.');
 
  
-function myFunction() {
+function refreshPage() {
 
 location.reload(); 
 }
