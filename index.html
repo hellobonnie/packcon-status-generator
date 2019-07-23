@@ -1,5 +1,18 @@
+
+
+  <!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to make a BUTTON element.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+
 <script>
 
+  
+  
 function pickRandom(argument) {
   if (typeof argument === 'number') {
     return Math.floor(Math.random() * Math.floor(argument)) + 1;
@@ -114,19 +127,11 @@ var object = pickRandom([subject,
 
 document.write(subject + ' ' + activity + ' ' + object + ' at PackCon.');
 
-<!DOCTYPE html>
-<html>
-<body>
-
-<p>Click the button to make a BUTTON element.</p>
-
-<button onclick="myFunction()">Try it</button>
-
 function myFunction() {
   var btn = document.createElement("BUTTON");
   document.body.appendChild(btn);
 }
+</script>
+
 </body>
 </html>
-
-</script>
